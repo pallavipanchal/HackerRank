@@ -1,13 +1,12 @@
 package thirtydaysofcode;
 
-import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
 public class DayEightDictionariesMaps {
-    public static void main(String[] args) throws IOException {
-        Map<String, Integer> dict = new HashMap<String, Integer>();
+    public static void main(String[] args) {
+        Map<String, Integer> dict = new HashMap<>();
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
 
