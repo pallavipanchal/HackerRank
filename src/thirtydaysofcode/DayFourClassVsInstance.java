@@ -10,9 +10,8 @@ public class DayFourClassVsInstance {
             int age = sc.nextInt();
             Person p = new Person(age);
             p.amIOld();
-            for (int j = 0; j < 3; j++) {
+            for (int j = 0; j < 3; j++)
                 p.yearPasses();
-            }
             p.amIOld();
             System.out.println();
         }
